@@ -1,0 +1,17 @@
+tt_content.image.20.1.imageLinkWrap {
+	JSwindow = 0
+	crop >
+	height >
+	width >
+	directImageLink = 1
+	linkParams.ATagParams.dataWrap = class="jnlightbox" rel="lightbox[lb{field:uid}]"
+}
+
+page.includeCSS {
+	jnlightbox = EXT:jn_lightbox/Resources/Public/style/lightbox.min.css
+	jnlightbox.media = screen
+}
+
+page.includeJSFooter {
+	jnlightbox = EXT:jn_lightbox/Resources/Public/javascript/lightbox.min.js
+}
