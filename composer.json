@@ -1,5 +1,5 @@
 {
-    "name": "joppnet/jn-lightbox",
+    "name": "joppnet/jn_lightbox",
     "type": "typo3-cms-extension",
     "description": "A very lightweight Lightbox extension for click-enlarging content element images using lightbox2.",
     "authors": [
