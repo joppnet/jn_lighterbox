@@ -8,10 +8,10 @@ tt_content.image.20.1.imageLinkWrap {
 }
 
 page.includeCSS {
-	jnlightbox = EXT:jn_lightbox/Resources/Public/style/lightbox.min.css
-	jnlightbox.media = screen
+	jnlighterbox = EXT:jn_lighterbox/Resources/Public/style/lightbox.min.css
+	jnlighterbox.media = screen
 }
 
 page.includeJSFooter {
-	jnlightbox = EXT:jn_lightbox/Resources/Public/javascript/lightbox.min.js
+	jnlighterbox = EXT:jn_lighterbox/Resources/Public/javascript/lightbox.min.js
 }

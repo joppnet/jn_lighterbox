@@ -8,7 +8,7 @@ conf.py:
   project: [joppnet] Lightbox
   latex_documents:
   - - Index
-    - jn_lightbox_selectors.tex
+    - jn_lighterbox_selectors.tex
     - [joppnet] Lightbox
     - Stefan Riedel
     - manual

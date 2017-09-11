@@ -15,9 +15,9 @@
             "targetVersion": "8.7.0-8.7.99",
             "version": "1.0.0"
         },
-        "extensionKey": "jn_lightbox",
+        "extensionKey": "jn_lighterbox",
         "name": "[joppnet] Lightbox",
-        "originalExtensionKey": "jn_lightbox",
+        "originalExtensionKey": "jn_lighterbox",
         "originalVendorName": "Joppnet",
         "persons": [
             {
@@ -29,7 +29,7 @@
             {
                 "company": "joppnet",
                 "email": "oli@joppnet.de",
-                "name": "Oliver Schloebe",
+                "name": "Oliver Schlöbe",
                 "role": "Developer"
             }
         ],

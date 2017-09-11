@@ -19,7 +19,7 @@
 .. only:: html
 
   :Classification:
-    jn_lightbox
+    jn_lighterbox
 
   :Version:
     |release|
