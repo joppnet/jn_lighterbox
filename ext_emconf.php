@@ -14,14 +14,14 @@ $EM_CONF[$_EXTKEY] = array (
 	'title' => '[joppnet] Lightbox',
 	'description' => 'A very lightweight Lightbox extension for click-enlarging content element images using lightbox2.',
 	'category' => 'plugin',
-	'author' => 'Stefan Riedel, Oliver Schlöbe',
-	'author_email' => 'stefan.riedel@joppnet.de, oli@joppnet.de',
+	'author' => 'Stefan Riedel',
+	'author_email' => 'stefan.riedel@joppnet.de',
 	'state' => 'stable',
 	'internal' => '',
 	'uploadfolder' => '0',
 	'createDirs' => '',
 	'clearCacheOnLoad' => 1,
-	'version' => '1.0.0',
+	'version' => '1.0.1',
 	'constraints' => 
 	array (
 	  'depends' => 

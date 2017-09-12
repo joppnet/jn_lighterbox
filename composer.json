@@ -1,21 +1,40 @@
 {
-	"name" : "joppnet/jn-lighterbox",
+	"name" : "joppnet/jn_lighterbox",
 	"type" : "typo3-cms-extension",
 	"description" : "A very lightweight Lightbox extension for click-enlarging content element images using lightbox2.",
-	"authors" : [{
-			"name" : "Stefan Riedel",
-			"role" : "Developer"
-		}, {
-			"name" : "Oliver Schlöbe",
-			"role" : "Developer"
-		}
+	"keywords": [
+        "TYPO3",
+        "lightbox",
+        "lightweight"
+    ],
+    "homepage": "https://github.com/joppnet/jn_lighterbox",
+    "support": {
+        "issues": "https://github.com/joppnet/jn_lighterbox/issues"
+    },
+	"authors" : [
+		{
+            "name": "Stefan Riedel",
+            "email": "stefan.riedel@joppnet.de",
+            "role": "Developer",
+            "homepage": "https://www.joppnet.de"
+        },
+		{
+            "name": "Oliver Schlöbe",
+            "email": "oli@joppnet.de",
+            "role": "Developer",
+            "homepage": "https://www.joppnet.de"
+        }
 	],
+	"license": "GPL-2.0+",
 	"require" : {
-		"typo3/cms-core" : "^8.0"
+		"typo3/cms-core" : "~8.7"
 	},
 	"autoload" : {
 		"psr-4" : {
-			"Joppnet\\JnLightbox\\" : "Classes"
+			"Joppnet\\JnLighterbox\\" : "Classes"
 		}
-	}
+	},
+    "replace": {
+        "jn_lighterbox": "self.version"
+    }
 }

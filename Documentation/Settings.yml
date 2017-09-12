@@ -6,9 +6,11 @@
 conf.py:
   copyright: 2017
   project: [joppnet] Lightbox
+  version: 1.0.1
+  release: 1.0.1
   latex_documents:
   - - Index
-    - jn_lighterbox_selectors.tex
+    - jn_lighterbox.tex
     - [joppnet] Lightbox
     - Stefan Riedel
     - manual
@@ -16,6 +18,16 @@ conf.py:
     papersize: a4paper
     pointsize: 10pt
     preamble: \usepackage{typo3}
+  intersphinx_mapping:
+    t3tsref:
+    - https://docs.typo3.org/typo3cms/TyposcriptReference/
+    - null
+    t3start:
+    - https://docs.typo3.org/typo3cms/GettingStartedTutorial/
+    - null
+    t3editors:
+    - https://docs.typo3.org/typo3cms/EditorsTutorial/
+    - null
   extensions:
     - sphinx.ext.intersphinx
     - t3sphinx.ext.t3extras
