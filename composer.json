@@ -29,11 +29,6 @@
 	"require" : {
 		"typo3/cms-core" : "~8.7"
 	},
-	"autoload" : {
-		"psr-4" : {
-			"Joppnet\\JnLighterbox\\" : "Classes"
-		}
-	},
     "replace": {
         "jn_lighterbox": "self.version"
     }
