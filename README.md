@@ -17,6 +17,7 @@ A very lightweight Lightbox extension for click-enlarging content element images
 
 1. Install the extension "jn_lighterbox" in your TYPO3 extension manager
 2. Include the static TypoScript template "[joppnet] Lightbox" to the root page
+3. Set constants for jn_lighterbox if needed
      
 ## Usage
 
@@ -25,7 +26,7 @@ A very lightweight Lightbox extension for click-enlarging content element images
 
 ## Configuration
 
-Configuration of the extension can be done by editing the typoscript setup.
+Configuration of the extension can be done setting constants or by editing the typoscript setup.
 
 ## Known problems
 
