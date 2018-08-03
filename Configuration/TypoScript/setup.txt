@@ -1,5 +1,15 @@
-# tt_content
+# css_styled_content
 tt_content.image.20.1.imageLinkWrap {
+	JSwindow = 0
+	crop >
+	height >
+	width >
+	directImageLink = 1
+	linkParams.ATagParams.dataWrap = class="jnlightbox" rel="lightbox[lb{field:uid}]"
+}
+
+# fluid_styled_content
+lib.contentElement.settings.media.popup {
 	JSwindow = 0
 	crop >
 	height >
