@@ -15,7 +15,7 @@ lib.contentElement.settings.media.popup {
 	height >
 	width >
 	directImageLink = 1
-	linkParams.ATagParams.dataWrap = class="jnlightbox" rel="lightbox[lb{field:uid}]"
+	linkParams.ATagParams.dataWrap = class="jnlightbox" rel="lightbox[lb{file:current:uid_foreign}]"
 }
 
 # tt_news
