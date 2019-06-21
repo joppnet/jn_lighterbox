@@ -28,14 +28,16 @@ plugin.tt_news.displaySingle.image.imageLinkWrap{
 	linkParams.ATagParams.dataWrap = class="jnlightbox" rel="lightbox[lb{field:uid}]"
 }
 
+# tx_news
+plugin.tx_news.settings.detail.media.image.lightbox {
+    enabled = 1
+    class = jnlightbox
+	prefix = lightbox
+}
+
 page.includeCSS {
 	jnlighterbox = EXT:jn_lighterbox/Resources/Public/style/lightbox.min.css
 	jnlighterbox.media = screen
-}
-
-page.jsInline {
-	901 = TEXT
-	901.value = jQuery(function() { jQuery('.news-single-img a.jnlightbox').each(function() { var _this = jQuery(this); _this.attr('title', _this.find('img').attr('title') ); }) });
 }
 
 [globalVar = LIT:1 = {$plugin.jn_lighterbox.includeJQueryLib}]
@@ -141,7 +143,8 @@ page.jsFooterInline.957.120.value = wrapAround: true,
 # Example how to set albumLabel for alternative language
 # In this example sys_language_uid 1 is German
 #
-#[globalVar = GP:L = 1]
+#[globalVar = GP:L = 1] # TYPO3 <= 8.x
+#[siteLanguage("languageId") == "1"] # TYPO3 >= 9.4.x
 #page.jsFooterInline.957.10 = TEXT
 #page.jsFooterInline.957.10.value = Bild %1 von %2
 #page.jsFooterInline.957.10.wrap = albumLabel: "|",
