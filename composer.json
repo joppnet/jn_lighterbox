@@ -30,6 +30,6 @@
 		"typo3/cms-core" : "~8.7.0||~9.5.0"
 	},
     "replace": {
-        "jn_lighterbox": "self.version"
+        "joppnet/jn_lighterbox": "self.version"
     }
 }
