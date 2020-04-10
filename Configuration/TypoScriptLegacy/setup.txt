@@ -40,11 +40,11 @@ page.includeCSS {
 	jnlighterbox.media = screen
 }
 
-["{$plugin.jn_lighterbox.includeJQueryLib}" == "1"]
+[globalVar = LIT:1 = {$plugin.jn_lighterbox.includeJQueryLib}]
 page.includeJSLibs {
 	jnlighterboxjquery = EXT:jn_lighterbox/Resources/Public/javascript/jquery-2.2.4.min.js
 }
-[END]
+[global]
 
 page.includeJSFooter {
 	jnlighterbox = EXT:jn_lighterbox/Resources/Public/javascript/lightbox.min.js
@@ -57,20 +57,20 @@ page.jsFooterInline.957.wrap (
 	|
 	});
 )
-[request.getPageArguments().get('L') < 1]
+[globalVar = GP:L < 1]
 page.jsFooterInline.957.10 = TEXT
 page.jsFooterInline.957.10.value = {$plugin.jn_lighterbox.albumLabel}
 page.jsFooterInline.957.10.required = 1
 page.jsFooterInline.957.10.wrap = albumLabel: "|",
-[END]
-["{$plugin.jn_lighterbox.alwaysShowNavOnTouchDevices}" == "1"]
+[global]
+[globalVar = LIT:1 = {$plugin.jn_lighterbox.alwaysShowNavOnTouchDevices}]
 page.jsFooterInline.957.20 = TEXT
 page.jsFooterInline.957.20.value = alwaysShowNavOnTouchDevices: true,
-[END]
-["{$plugin.jn_lighterbox.disableScrolling}" == "1"]
+[global]
+[globalVar = LIT:1 = {$plugin.jn_lighterbox.disableScrolling}]
 page.jsFooterInline.957.30 = TEXT
 page.jsFooterInline.957.30.value = disableScrolling: true,
-[END]
+[global]
 page.jsFooterInline.957.40 = TEXT
 page.jsFooterInline.957.40.value = {$plugin.jn_lighterbox.fadeDuration}
 page.jsFooterInline.957.40.wrap = fadeDuration: |,
@@ -133,19 +133,18 @@ page.jsFooterInline.957.110.if {
 	value = 0
 	equals = {$plugin.jn_lighterbox.showImageNumberLabel}
 }
-["{$plugin.jn_lighterbox.wrapAround}" == "1"]
+[globalVar = LIT:1 = {$plugin.jn_lighterbox.wrapAround}]
 page.jsFooterInline.957.120 = TEXT
 page.jsFooterInline.957.120.value = wrapAround: true,
-[END]
+[global]
 
 
 #
 # Example how to set albumLabel for alternative language
 # In this example sys_language_uid 1 is German
 #
-#[siteLanguage("languageId") == "1"] # TYPO3 >= 9.4.x
-#[siteLanguage("twoLetterIsoCode") == "de"] # TYPO3 >= 9.4.x
+#[globalVar = GP:L = 1] # TYPO3 <= 8.x
 #page.jsFooterInline.957.10 = TEXT
 #page.jsFooterInline.957.10.value = Bild %1 von %2
 #page.jsFooterInline.957.10.wrap = albumLabel: "|",
-#[END]
+#[global]

@@ -8,7 +8,7 @@ Repository: https://github.com/joppnet/jn_lighterbox
 
 Please report bugs here: https://github.com/joppnet/jn_lighterbox/issues
 
-TYPO3 version: >8.0
+TYPO3 version: >8.7
 
 ## About
 A very lightweight Lightbox extension for click-enlarging content element images using lightbox2 or any other library of your choice.
@@ -26,7 +26,7 @@ A very lightweight Lightbox extension for click-enlarging content element images
 
 ## Configuration
 
-Configuration of the extension can be done setting constants or by editing the typoscript setup.
+Configuration of the extension can be done setting constants or by editing the TypoScript setup.
 
 ## Known problems
 

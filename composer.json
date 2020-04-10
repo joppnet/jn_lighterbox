@@ -25,9 +25,9 @@
             "homepage": "https://www.joppnet.de"
         }
 	],
-	"license": "GPL-2.0+",
+	"license": "GPL-2.0-or-later",
 	"require" : {
-		"typo3/cms-core" : "~8.7.0||~9.5.0"
+		"typo3/cms-core" : "^8.7 || ^9.5 || ^10.4"
 	},
     "replace": {
         "jn_lighterbox": "self.version"
