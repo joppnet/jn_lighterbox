@@ -2,8 +2,8 @@
 tt_content.image.20.1.imageLinkWrap {
 	JSwindow = 0
 	crop >
-	height >
-	width >
+	#height >
+	#width >
 	directImageLink = 1
 	linkParams.ATagParams.dataWrap = class="jnlightbox" data-title="{field:title}" rel="lightbox[lb{field:uid}]" data-lightbox="lightbox-{field:uid}"
 }
@@ -12,8 +12,8 @@ tt_content.image.20.1.imageLinkWrap {
 lib.contentElement.settings.media.popup {
 	JSwindow = 0
 	crop >
-	height >
-	width >
+	#height >
+	#width >
 	directImageLink = 1
 	linkParams.ATagParams.dataWrap = class="jnlightbox" data-title="{file:current:title}" rel="lightbox[lb{file:current:uid_foreign}]" data-lightbox="lightbox-{file:current:uid_foreign}"
 }
@@ -22,8 +22,8 @@ lib.contentElement.settings.media.popup {
 plugin.tt_news.displaySingle.image.imageLinkWrap{
 	JSwindow = 0
 	crop >
-	height >
-	width >
+	#height >
+	#width >
 	directImageLink = 1
 	linkParams.ATagParams.dataWrap = class="jnlightbox"  data-title="{field:title}" rel="lightbox[lb{field:uid}]" data-lightbox="lightbox-{field:uid}"
 }
