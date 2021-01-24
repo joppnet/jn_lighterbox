@@ -57,7 +57,7 @@ page.jsFooterInline.957.wrap (
 	|
 	});
 )
-[request.getPageArguments() && request.getPageArguments().get('L') < 1]
+[siteLanguage("languageId") == "0"]
 page.jsFooterInline.957.10 = TEXT
 page.jsFooterInline.957.10.value = {$plugin.jn_lighterbox.albumLabel}
 page.jsFooterInline.957.10.required = 1
