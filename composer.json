@@ -9,7 +9,9 @@
     ],
     "homepage": "https://github.com/joppnet/jn_lighterbox",
     "support": {
-        "issues": "https://github.com/joppnet/jn_lighterbox/issues"
+        "docs": "https://github.com/joppnet/jn_lighterbox",
+		"issues": "https://github.com/joppnet/jn_lighterbox/issues",
+		"source": "https://github.com/joppnet/jn_lighterbox"
     },
 	"authors" : [
 		{
@@ -25,8 +27,18 @@
             "homepage": "https://www.joppnet.de"
         }
 	],
-	"license": "GPL-2.0-or-later",
+	"license": [
+		"GPL-2.0-or-later"
+	],
 	"require" : {
-		"typo3/cms-core" : "^8.7 || ^9.5 || ^10"
+		"typo3/cms-core" : "^9.5 || ^10.4 || ^11.5"
+	},
+	"replace": {
+		"joppnet/jn_lighterbox": "self.version"
+	},
+    "extra": {
+		"typo3/cms": {
+			"extension-key": "jn_lighterbox"
+		}
 	}
 }
