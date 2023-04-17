@@ -1,3 +1,4 @@
+[![TYPO3 12](https://img.shields.io/badge/TYPO3-12-orange.svg)](https://get.typo3.org/version/12)
 [![TYPO3 11](https://img.shields.io/badge/TYPO3-11-orange.svg)](https://get.typo3.org/version/11)
 [![TYPO3 10](https://img.shields.io/badge/TYPO3-10-orange.svg)](https://get.typo3.org/version/10)
 [![TYPO3 9](https://img.shields.io/badge/TYPO3-9-orange.svg)](https://get.typo3.org/version/9)
@@ -17,7 +18,7 @@ A very lightweight Lightbox extension for click-enlarging content element images
 1. Install the extension "jn_lighterbox" in your TYPO3 extension manager or via Composer.
 2. Include the static TypoScript template "[joppnet] Lightbox" in the root page
 3. Set constants for jn_lighterbox if needed
-     
+
 ## Usage
 
 1. In "Images only" / "Text /w images" content elements just activate the checkbox "click enlarge".

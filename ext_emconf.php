@@ -16,14 +16,13 @@ $EM_CONF[$_EXTKEY] = array(
     'category' => 'plugin',
     'version' => '1.2.5',
     'state' => 'stable',
-    'uploadfolder' => false,
-    'clearcacheonload' => true,
+    'clearCacheOnLoad' => true,
     'author' => 'Stefan Riedel',
     'author_email' => 'stefan.riedel@joppnet.de',
     'author_company' => 'joppnet',
     'constraints' => array(
         'depends' => array(
-            'typo3' => '9.5.0-11.5.99',
+            'typo3' => '9.5.0-12.4.99',
         ),
         'conflicts' => array(
         ),
