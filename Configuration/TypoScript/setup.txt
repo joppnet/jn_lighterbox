@@ -57,12 +57,10 @@ page.jsFooterInline.957.wrap (
 	|
 	});
 )
-[siteLanguage("languageId") == "0"]
 page.jsFooterInline.957.10 = TEXT
 page.jsFooterInline.957.10.value = {$plugin.jn_lighterbox.albumLabel}
 page.jsFooterInline.957.10.required = 1
 page.jsFooterInline.957.10.wrap = albumLabel: "|",
-[END]
 ["{$plugin.jn_lighterbox.alwaysShowNavOnTouchDevices}" == "1"]
 page.jsFooterInline.957.20 = TEXT
 page.jsFooterInline.957.20.value = alwaysShowNavOnTouchDevices: true,
@@ -143,9 +141,8 @@ page.jsFooterInline.957.120.value = wrapAround: true,
 # Example how to set albumLabel for alternative language
 # In this example sys_language_uid 1 is German
 #
-#[siteLanguage("languageId") == "1"] # TYPO3 >= 9.4.x
+#[siteLanguage("languageId") == "1"] # TYPO3 < 9.4.x
 #[siteLanguage("twoLetterIsoCode") == "de"] # TYPO3 >= 9.4.x
-#page.jsFooterInline.957.10 = TEXT
 #page.jsFooterInline.957.10.value = Bild %1 von %2
 #page.jsFooterInline.957.10.wrap = albumLabel: "|",
 #[END]
