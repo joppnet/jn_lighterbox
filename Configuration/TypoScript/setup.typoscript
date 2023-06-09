@@ -42,7 +42,7 @@ page.includeCSS {
 
 ["{$plugin.jn_lighterbox.includeJQueryLib}" == "1"]
 page.includeJSLibs {
-	jnlighterboxjquery = EXT:jn_lighterbox/Resources/Public/javascript/jquery-2.2.4.min.js
+	jnlighterboxjquery = EXT:jn_lighterbox/Resources/Public/javascript/jquery-3.7.0.min.js
 }
 [END]
 

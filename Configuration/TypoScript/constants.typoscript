@@ -1,5 +1,5 @@
 plugin.jn_lighterbox {
-	# cat=plugin.jn_lighterbox/; type=boolean; label= Use included jQuery library (2.2.4)?: Set this to off if you are already using jQuery globally.
+	# cat=plugin.jn_lighterbox/; type=boolean; label= Use included jQuery library (3.7.0)?: Set this to off if you are already using jQuery globally.
 	includeJQueryLib = 0
 	# cat=plugin.jn_lighterbox/; type=text; label= albumLabel: The text displayed below the caption when viewing an image set. The default text is "Image %1 of %2"
 	albumLabel = Image %1 of %2
