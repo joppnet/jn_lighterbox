@@ -36,18 +36,18 @@ plugin.tx_news.settings.detail.media.image.lightbox {
 }
 
 page.includeCSS {
-	jnlighterbox = EXT:jn_lighterbox/Resources/Public/style/lightbox.min.css
+	jnlighterbox = EXT:jn_lighterbox/Resources/Public/CSS/lightbox.min.css
 	jnlighterbox.media = screen
 }
 
 ["{$plugin.jn_lighterbox.includeJQueryLib}" == "1"]
 page.includeJSLibs {
-	jnlighterboxjquery = EXT:jn_lighterbox/Resources/Public/javascript/jquery-3.7.0.min.js
+	jnlighterboxjquery = EXT:jn_lighterbox/Resources/Public/JavaScript/jquery.min.js
 }
 [END]
 
 page.includeJSFooter {
-	jnlighterbox = EXT:jn_lighterbox/Resources/Public/javascript/lightbox.min.js
+	jnlighterbox = EXT:jn_lighterbox/Resources/Public/JavaScript/lightbox.min.js
 }
 
 # Lightbox settings

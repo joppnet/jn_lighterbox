@@ -1,7 +1,10 @@
+[![Latest Stable Version](https://poser.pugx.org/joppnet/jn_lighterbox/v/stable.svg)](https://extensions.typo3.org/extension/jn_lighterbox/)
 [![TYPO3 12](https://img.shields.io/badge/TYPO3-12-orange.svg)](https://get.typo3.org/version/12)
 [![TYPO3 11](https://img.shields.io/badge/TYPO3-11-orange.svg)](https://get.typo3.org/version/11)
 [![TYPO3 10](https://img.shields.io/badge/TYPO3-10-orange.svg)](https://get.typo3.org/version/10)
 [![TYPO3 9](https://img.shields.io/badge/TYPO3-9-orange.svg)](https://get.typo3.org/version/9)
+[![Total Downloads](https://poser.pugx.org/joppnet/jn_lighterbox/d/total.svg)](https://packagist.org/packages/joppnet/jn_lighterbox)
+[![Monthly Downloads](https://poser.pugx.org/joppnet/jn_lighterbox/d/monthly)](https://packagist.org/packages/joppnet/jn_lighterbox)
 
 # TYPO3 extension `jn_lighterbox`
 
