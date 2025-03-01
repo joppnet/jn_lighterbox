@@ -14,7 +14,7 @@ A very lightweight Lightbox extension for click-enlarging content element images
 |                  | URL                                                               |
 |------------------|-------------------------------------------------------------------|
 | **Repository:**  | https://github.com/joppnet/jn_lighterbox                   |
-| **Read online:** | https://docs.typo3.org/p/joppnet/jn_lighterbox/main/en-us/ |
+| **Read online:** | https://github.com/joppnet/jn_lighterbox/blob/master/README.md |
 | **TER:**         | https://extensions.typo3.org/extension/jn_lighterbox       |
 
 ## Installation & Configuration
