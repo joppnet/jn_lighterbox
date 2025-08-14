@@ -5,7 +5,17 @@ tt_content.image.20.1.imageLinkWrap {
 	#height >
 	#width >
 	directImageLink = 1
-	linkParams.ATagParams.dataWrap = class="jnlightbox" data-title="{field:title}" rel="lightbox[lb{field:uid}]" data-lightbox="lightbox-{field:uid}"
+	linkParams {
+		ATagParams {
+			dataWrap =
+			cObject = TEXT
+			cObject {
+				data = file:title
+				htmlSpecialChars = 1
+				dataWrap = class="jnlightbox" data-title="|" rel="lightbox[lb{field:uid}]" data-lightbox="lightbox-{field:uid}"
+			}
+		}
+	}
 }
 
 # fluid_styled_content
@@ -15,17 +25,37 @@ lib.contentElement.settings.media.popup {
 	#height >
 	#width >
 	directImageLink = 1
-	linkParams.ATagParams.dataWrap = class="jnlightbox" data-title="{file:current:title}" rel="lightbox[lb{file:current:uid_foreign}]" data-lightbox="lightbox-{file:current:uid_foreign}"
+	linkParams {
+		ATagParams {
+			dataWrap =
+			cObject = TEXT
+			cObject {
+				data = file:current:title
+				htmlSpecialChars = 1
+				dataWrap = class="jnlightbox" data-title="|" rel="lightbox[lb{file:current:uid_foreign}]" data-lightbox="lightbox-{file:current:uid_foreign}"
+			}
+		}
+	}
 }
 
 # tt_news
-plugin.tt_news.displaySingle.image.imageLinkWrap{
+plugin.tt_news.displaySingle.image.imageLinkWrap {
 	JSwindow = 0
 	crop >
 	#height >
 	#width >
 	directImageLink = 1
-	linkParams.ATagParams.dataWrap = class="jnlightbox"  data-title="{field:title}" rel="lightbox[lb{field:uid}]" data-lightbox="lightbox-{field:uid}"
+	linkParams {
+		ATagParams {
+			dataWrap =
+			cObject = TEXT
+			cObject {
+				data = file:title
+				htmlSpecialChars = 1
+				dataWrap = class="jnlightbox" data-title="|" rel="lightbox[lb{field:uid}]" data-lightbox="lightbox-{field:uid}"
+			}
+		}
+	}
 }
 
 # tx_news
