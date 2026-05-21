@@ -1,4 +1,5 @@
 <?php
+declare(strict_types=1);
 
 /***************************************************************
  * Extension Manager/Repository config file for ext "jn_lighterbox".
@@ -16,7 +17,6 @@ $EM_CONF['jn_lighterbox'] = [
 	'category' => 'plugin',
 	'version' => '1.3.7',
 	'state' => 'stable',
-	'uploadfolder' => false,
 	'clearcacheonload' => true,
 	'author' => 'Stefan Riedel',
 	'author_email' => 'stefan.riedel@joppnet.de',
