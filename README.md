@@ -1,4 +1,5 @@
 [![Latest Stable Version](https://poser.pugx.org/joppnet/jn_lighterbox/v/stable.svg)](https://extensions.typo3.org/extension/jn_lighterbox/)
+[![TYPO3 13](https://img.shields.io/badge/TYPO3-14-orange.svg)](https://get.typo3.org/version/14)
 [![TYPO3 13](https://img.shields.io/badge/TYPO3-13-orange.svg)](https://get.typo3.org/version/13)
 [![TYPO3 12](https://img.shields.io/badge/TYPO3-12-orange.svg)](https://get.typo3.org/version/12)
 [![TYPO3 11](https://img.shields.io/badge/TYPO3-11-orange.svg)](https://get.typo3.org/version/11)
